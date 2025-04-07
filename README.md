@@ -7,7 +7,6 @@ As expected, store sales are influenced by many factors, including promotional c
 
  With thousands of individual managers predicting sales based on their unique circumstances and intuitions, the accuracy of the forecasts is quite varied. To overcome this problem, the company has hired you as a data scientist to work on the forecasting problem. As part of your job role, you are tasked with building a forecasting model to forecast the daily sales for the next six weeks. To help you with the same, you have been provided with historical sales data for 1,115 Rossmann stores.
 
-Data file Download
 ## Data definition
  
 
