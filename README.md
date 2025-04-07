@@ -1,6 +1,6 @@
-## Rossmann-is-a-European-drug-distributor
+# Rossmann-is-a-European-drug-distributor
 
-# Problem Statement
+## Problem Statement
 Rossmann is a European drug distributor which operates over 3,000 drug stores across seven European countries. Since a lot of drugs come with a short shelf life, that is, they do not have a long expiry date, it becomes imperative for Rossmann to accurately forecast sales at their individual stores. Currently, the forecasting is taken care of by the store managers who are tasked with forecasting daily sales for the next six weeks. 
 
 As expected, store sales are influenced by many factors, including promotional campaigns, competition, state holidays, seasonality, and locality.
@@ -8,12 +8,10 @@ As expected, store sales are influenced by many factors, including promotional c
  With thousands of individual managers predicting sales based on their unique circumstances and intuitions, the accuracy of the forecasts is quite varied. To overcome this problem, the company has hired you as a data scientist to work on the forecasting problem. As part of your job role, you are tasked with building a forecasting model to forecast the daily sales for the next six weeks. To help you with the same, you have been provided with historical sales data for 1,115 Rossmann stores.
 
 Data file Download
-# Data definition
+## Data definition
  
 
 The data is provided in two tables, stores and train. The store table contains the metadata for every single store including the following:
-
- 
 
 - Store - an Id that represents the store
 
@@ -30,7 +28,7 @@ The data is provided in two tables, stores and train. The store table contains t
 - Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
 
 - PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb, May, Aug, Nov" means each round starts in February, May, August, November of any given year for that store
-# The train table contains the sales data for individual stores at a daily level along with the details about the day
+## The train table contains the sales data for individual stores at a daily level along with the details about the day
 
 - Store - a unique Id for each store
 
@@ -50,7 +48,7 @@ The data is provided in two tables, stores and train. The store table contains t
 
 - Since the company is just embarking on this project, the scope has been kept to nine key stores across Europe. The stores are key for the company keeping in mind the revenue and historical prestige associated with them. These stores are numbered - 1,3,8,9,13,25,29,31 and 46.
 
- # While attempting to forecast sales, it is advisable to keep the following question in mind.
+## While attempting to forecast sales, it is advisable to keep the following question in mind.
  
 - Is the sales data non-stationary? If so, how do you find it and correct it?
 
@@ -62,7 +60,7 @@ The data is provided in two tables, stores and train. The store table contains t
 
 - Forecast sales for the next 6 weeks? Report the accuracy of the model using MAPE.
 
- # While you are solving the problem, the following steps can be used as a reference. Please note that you can take a different approach as well.
+## While you are solving the problem, the following steps can be used as a reference. Please note that you can take a different approach as well.
 
  
 - Find outliers at the 99th percentile and remove them.
